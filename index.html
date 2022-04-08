@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exp 6</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="clock">
+      <h1>Digital Clock!</h1>
+      <span id="time"></span>
+    </div>
+
+    <div id="bg">
+      <h1>Dynamic Background</h1>
+    </div>
+
+    <div id="size">
+      <h1>Change Font Size</h1>
+      <p id="para" onmouseover="incSize()" onmouseout="decSize()">
+        Life is what happens when you’re busy making other plans.
+      </p>
+    </div>
+
+    <div id="image">
+      <h1>Moving Car</h1>
+      <img
+        src="https://www.w3schools.com/w3css/img_car.jpg"
+        alt="Car"
+        style="width: 30vh"
+        id="img"
+      />
+      <div class="buttons">
+        <button onClick="moveRight()">Move</button>
+        <button onClick="stop()">Stop</button>
+      </div>
+    </div>
+
+    <div id="#students">
+      <h1>Born before 2000</h1>
+      <ul id="born-before"></ul>
+      <h1>Born after 2000</h1>
+      <ul id="born-after"></ul>
+    </div>
+  </body>
+</html>
